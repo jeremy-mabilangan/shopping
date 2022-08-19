@@ -1,0 +1,18 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "Tide Bar",
+            "image": "https://www.bayanmall.com/image/cache/data/July%2017/IMG_4257%20copy-700x700_0.jpg",
+            "description": "Mabango sa damit",
+            "quantity": 0
+        },
+        {
+            "id": 2,
+            "name": "Pride Powder",
+            "image": "https://ipcdn.freshop.com/resize?url=https://images.freshop.com/1564405684702536547/553910eb05c2c36316a9dbf9129a993e_large.png&width=512&type=webp&quality=90",
+            "description": "Maganda ito pangwashing machine",
+            "quantity": 0
+        }
+    ]
+}
