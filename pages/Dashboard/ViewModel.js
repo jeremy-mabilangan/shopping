@@ -6,9 +6,8 @@ import data from "../../src/constant/products.json"
 const ViewModel = () => {
     const dispatch = useDispatch()
     const cart = useSelector((state) => state?.cart);
-    console.log(cart)
+    
     const incrementItem = ({ id, name, image, description }) => {
-        console.log("clicked increment")
         const params = {
             id: id,
             name: name,
@@ -21,7 +20,6 @@ const ViewModel = () => {
     }
     
     const decrementItem = (id) => {
-        console.log("clicked decrement")
         dispatch(decrement(id))
     }
 
@@ -39,8 +37,6 @@ const ViewModel = () => {
     }
 
     const getData = () => {
-        
-        console.log("getData")
         let items = data.data
         
         items.map(item => {
